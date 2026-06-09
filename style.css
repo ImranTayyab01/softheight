@@ -147,10 +147,12 @@ button:hover {
     transform: translateY(-3px);
 }
 
-.container2 {
+.container3 {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction:column;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 .heading1 {
@@ -192,11 +194,20 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
+.react-frontend p {
+    color: #0b3c40;
+    margin: 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
 .backend i {
     color: #fb741b;
     font-size: 50px;
 }
-.express-backend{
+
+.express-backend {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +219,7 @@ button:hover {
     width: 300px;
     border: 1px solid;
 }
+
 .express-backend h2 {
     color: #0b3c40;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -215,6 +227,13 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+.express-backend p {
+    color: #0b3c40;
+    margin: 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
 .mongodb-database {
     display: flex;
     flex-direction: column;
@@ -227,7 +246,20 @@ button:hover {
     width: 300px;
     border: 1px solid;
 }
+
 .database i {
     color: #fb741b;
     font-size: 50px;
+}
+.mongodb-database h2 {
+    color: #0b3c40;
+    margin: 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.mongodb-database p {
+    color: #0b3c40;
+    margin: 10px 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
