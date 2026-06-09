@@ -94,7 +94,7 @@ button:hover {
     text-align: center;
     justify-content: space-around;
     margin: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px 0px 10px;
     color: #0b3c40;
@@ -150,7 +150,7 @@ button:hover {
 .container3 {
     display: flex;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
     margin-top: 20px;
     justify-content: center;
 }
@@ -227,6 +227,7 @@ button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
 .express-backend p {
     color: #0b3c40;
     margin: 10px 0px 10px;
@@ -251,12 +252,14 @@ button:hover {
     color: #fb741b;
     font-size: 50px;
 }
+
 .mongodb-database h2 {
     color: #0b3c40;
     margin: 10px 0px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
 .mongodb-database p {
     color: #0b3c40;
     margin: 10px 0px 10px;
