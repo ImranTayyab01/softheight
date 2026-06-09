@@ -52,6 +52,8 @@ li a:hover {
 }
 
 button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
     padding: 15px 14px;
     background-color: rgb(250, 153, 97);
     color: white;
