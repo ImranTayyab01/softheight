@@ -69,3 +69,27 @@ button {
 button:hover {
     background-color: rgb(6, 51, 6);
 }
+
+.heading {
+    text-align: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #0b3c40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.gloom {
+    color: #fb741b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::selection {
+    background-color: #0b3c40;
+    color: white;
+}
+
+.paragraph {
+    align-items: center;
+    text-align: center;
+}
