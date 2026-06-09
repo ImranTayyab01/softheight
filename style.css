@@ -227,3 +227,7 @@ button:hover {
     width: 300px;
     border: 1px solid;
 }
+.database i {
+    color: #fb741b;
+    font-size: 50px;
+}
