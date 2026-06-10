@@ -380,8 +380,11 @@ button:hover {
 .bigheading {
     text-align: right;
     max-width: 500px;
-    margin-right: 150px;
+    margin-right: 200px;
     font-size: 25px;
     color: #0b3c40;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bigheading h1{
+    text-align: center;
 }
