@@ -287,8 +287,9 @@ button:hover {
     font-size: 10px;
     border-radius: 10px;
     transition: 0.3s ease-out;
-    margin: 20px 10px 5px 10px;
-    padding: 6px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 8px;
+    border: 1px solid;
 }
 
 .link1 a:hover,
@@ -296,6 +297,40 @@ button:hover {
 .link3 a:hover,
 .link4 a:hover,
 .link5 a:hover {
+    background-color: #0b3c40;
+    color: white;
+}
+
+.backend-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 0px;
+    margin: 20px 0px 10px;
+}
+
+.link-1 a,
+.link-2 a,
+.link-3 a,
+.link-4 a,
+.link-5 a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: #0b3c40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 8px;
+    border: 1px solid;
+}
+
+.link-1 a:hover,
+.link-2 a:hover,
+.link-3 a:hover,
+.link-4 a:hover,
+.link-5 a:hover {
     background-color: #0b3c40;
     color: white;
 }
