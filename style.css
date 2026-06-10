@@ -368,3 +368,20 @@ button:hover {
     background-color: #0b3c40;
     color: white;
 }
+
+.bigcontainer {
+    display: flex;
+    /* text-align: center; */
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bigheading {
+    text-align: right;
+    max-width: 500px;
+    margin-right: 150px;
+    font-size: 25px;
+    color: #0b3c40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
