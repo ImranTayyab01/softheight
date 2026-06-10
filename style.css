@@ -385,6 +385,20 @@ button:hover {
     color: #0b3c40;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.bigheading h1{
+
+.bigheading h1 {
     text-align: center;
+}
+
+/* .piccontainer {
+    display: flex;
+} */
+
+.bigimg {
+    margin: 20px;
+}
+
+img {
+    font-size: 400px;
+
 }
