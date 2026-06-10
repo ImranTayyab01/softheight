@@ -380,7 +380,7 @@ button:hover {
 .bigheading {
     text-align: right;
     max-width: 500px;
-    margin-right: 200px;
+    margin-right: 250px;
     font-size: 25px;
     color: #0b3c40;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -390,15 +390,17 @@ button:hover {
     text-align: center;
 }
 
-/* .piccontainer {
+.piccontainer {
     display: flex;
-} */
-
-.bigimg {
-    margin: 20px;
 }
 
-img {
-    font-size: 400px;
+.bigimg {
+    margin: 40px;
 
+}
+
+.bigimg img {
+    width: 400px;
+    height: 400px;
+    cursor: auto;
 }
