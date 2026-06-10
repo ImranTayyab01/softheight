@@ -334,3 +334,37 @@ button:hover {
     background-color: #0b3c40;
     color: white;
 }
+
+.mongobd-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 0px;
+    margin: 20px 0px 10px;
+}
+
+.link-01 a,
+.link-02 a,
+.link-03 a,
+.link-04 a,
+.link-05 a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    color: #0b3c40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    margin: 10px 10px 10px 10px;
+    padding: 8px 8px;
+    border: 1px solid;
+}
+
+.link-01 a:hover,
+.link-02 a:hover,
+.link-03 a:hover,
+.link-04 a:hover,
+.link-05 a:hover {
+    background-color: #0b3c40;
+    color: white;
+}
