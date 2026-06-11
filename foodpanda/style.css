@@ -56,8 +56,8 @@ img {
     justify-content: flex-start;
     gap: 5px;
     font-size: 20px;
-    padding: 8px 16px;
-    margin-left: 15%;
+    padding: 8px 20px;
+    margin-left: 10%;
     transition: 0.2s ease-in-out;
     border-radius: 5px;
 }
@@ -71,6 +71,7 @@ img {
     color: #2e3138;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    width: 120px;
 }
 .log{
     display: flex;
@@ -81,7 +82,7 @@ img {
     color: #2e3138;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .login{
     padding: 5px 20px;
@@ -94,9 +95,33 @@ img {
     width: 100px;
     height: 40px;
     border-radius: 10px;
-    transition: padding 0.2s ease, border-width 0.2s ease, border-color 0.2s ease;
 }
 .login:hover {
     transform: scale(1.05);
-
+}
+.signup{
+    padding: 5px 20px;
+    border: 1px solid #2e3138;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#e21b70;
+    color: white;
+}
+.signup:hover {
+    transform: scale(1.05);
+}
+.global {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-left: 50px;
+    cursor: pointer;
 }
