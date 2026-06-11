@@ -230,3 +230,87 @@ img {
 .panda-pic {
     flex: 1;
 }
+
+.link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2e3138;
+}
+
+.link p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link i {
+    font-size: 10px;
+}
+
+.mobileapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #ffebeb;
+}
+
+.scanner {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.scanner img {
+    width: 200px;
+    height: 150px;
+}
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.colored-text {
+    font-size: 20px;
+    color: #e21b70;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.panda02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+}
+
+.panda02 img {
+    width: 200px;
+    height: 150px;
+}
+
+.mobile,
+.panda02 {
+    flex: 1;
+}
