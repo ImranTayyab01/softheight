@@ -9,8 +9,8 @@ img {
     width: 70px;
     height: 50px;
     cursor: pointer;
-    margin-left: 30px;
-    padding: 5px;
+    margin-left: 0;
+    padding: 1px;
 }
 
 .navbar {
@@ -22,20 +22,81 @@ img {
     margin-bottom: 20px;
     margin-top: 0;
     width: 100%;
-    background-color: aqua;
     flex-direction: row;
 }
+
+.jrnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    width: 100%;
+}
+
 .foodpanda {
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
     font-size: 30px;
-    font-weight: bold;
-    color: white;
+
 }
+
 .foodpanda p {
     font-size: 20px;
-    color: rgb(240, 32, 163);
-    margin-left: 20px;
+    color: #e21b70;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:left;
+    cursor: pointer;
+}
+
+.location {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-left: 15%;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.location:hover {
+    background-color: #f0f0f0;
+}
+
+.location p {
+    font-size: 16px;
+    color: #2e3138;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 16px;
+    color: #2e3138;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.login{
+    padding: 5px 20px;
+    border: 1px solid #2e3138;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    transition: padding 0.2s ease, border-width 0.2s ease, border-color 0.2s ease;
+}
+.login:hover {
+    transform: scale(1.05);
+
 }
