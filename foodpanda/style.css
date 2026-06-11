@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+    background-color: aqua;
+    flex-direction: row;
+}
+.foodpanda {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.foodpanda p {
+    font-size: 20px;
+    color: rgb(240, 32, 163);
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+}
