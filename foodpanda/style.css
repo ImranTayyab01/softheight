@@ -396,7 +396,19 @@ img {
 .grid-item-6,
 .grid-item-7,
 .grid-item-8,
-.grid-item-9 {
+.grid-item-9,
+.grid-item-10,
+.grid-item-11,
+.grid-item-12,
+.grid-item-13,
+.grid-item-14,
+.grid-item-15,
+.grid-item-16,
+.grid-item-17,
+.grid-item-18,
+.grid-item-19,
+.grid-item-20,
+.grid-item-21 {
     display: flex;
     align-items: center;
     height: 400px;
@@ -413,7 +425,8 @@ img {
 .grid-item-6 img,
 .grid-item-7 img,
 .grid-item-8 img,
-.grid-item-9 img {
+.grid-item-9 img,
+.grid-item-10 img {
     width: 100%;
     max-width: 400px;
     height: 300px;
@@ -430,7 +443,9 @@ img {
 .text6,
 .text7,
 .text8,
-.text9 .fastfood {
+.text9,
+.text10,
+.fastfood {
     font-size: 20px;
     color: #2e3138;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -452,6 +467,7 @@ img {
 .text7 p,
 .text8 p,
 .text9 p,
+.text10 p,
 .fastfood p {
     width: auto;
     margin-left: 10px;
@@ -465,7 +481,8 @@ img {
 .label6,
 .label7,
 .label8,
-.label9 {
+.label9,
+.label10 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -484,7 +501,8 @@ img {
 .label6 p,
 .label7 p,
 .label8 p,
-.label9 p {
+.label9 p,
+.label10 p {
     border: 1px solid;
     font-size: 10px;
     border-radius: 30px;
