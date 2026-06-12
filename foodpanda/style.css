@@ -403,7 +403,8 @@ img {
 .grid-item-1 img,
 .grid-item-2 img,
 .grid-item-3 img,
-.grid-item-4 img {
+.grid-item-4 img,
+.grid-item-5 img {
     width: 100%;
     max-width: 400px;
     height: 300px;
@@ -416,6 +417,7 @@ img {
 .text2,
 .text3,
 .text4,
+.text5,
 .fastfood {
     font-size: 20px;
     color: #2e3138;
@@ -433,6 +435,7 @@ img {
 .text2 p,
 .text3 p,
 .text4 p,
+.text5 p,
 .fastfood p {
     width: auto;
     margin-left: 10px;
@@ -441,7 +444,8 @@ img {
 .label1,
 .label2,
 .label3,
-.label4 {
+.label4,
+.label5 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -455,7 +459,8 @@ img {
 .label1 p,
 .label2 p,
 .label3 p,
-.label4 p {
+.label4 p,
+.label5 p {
     border: 1px solid;
     font-size: 10px;
     border-radius: 30px;
