@@ -16,6 +16,9 @@ img {
 .navbar {
     height: 100px;
     display: flex;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -26,6 +29,7 @@ img {
 
 .jrnavbar {
     display: flex;
+    
     align-items: center;
     justify-content: flex-start;
     gap: 0;
@@ -96,6 +100,7 @@ img {
     width: 100px;
     height: 40px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .login:hover {
@@ -115,6 +120,7 @@ img {
     border-radius: 10px;
     background-color: #e21b70;
     color: white;
+    cursor: pointer;
 }
 
 .signup:hover {
