@@ -36,3 +36,14 @@
     color: #ee701c;
 }
 
+.mainsection {
+    background-color: #20908b;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
