@@ -13,3 +13,17 @@
     background-color: #f4f4f4;
 }
 
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
