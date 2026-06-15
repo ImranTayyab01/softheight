@@ -67,3 +67,25 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.links {
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: #ee701c;
+    width: 150px;
+    height: 50px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 38px 14px 37px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
