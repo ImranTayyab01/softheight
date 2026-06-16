@@ -219,3 +219,24 @@
 .sellingoption p {
     font-size: 20px;
 }
+
+.imagesgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: calc(100% - 20px);
+}
+
+.imagesgrid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.imagesgrid img:hover {
+    transform: scale(0.9);
+}
