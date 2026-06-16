@@ -102,18 +102,48 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-left: 20px;
+    word-break: break-word;
 }
-.Aboutsection h1{
+
+.Aboutsection h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0;
+    color: #111111;
 }
-.Aboutsection p{
+
+.Aboutsection p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.Aboutsection a{
-    text-decoration: none;
-    font-size: 20px;
+    text-align: justify;
+    margin: 0;
+    color: #111111;
 
 }
-.Aboutsection a i{
+
+.Aboutsection a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+
+.Aboutsection a:hover {
     color: #ee701c;
+}
+
+.Aboutsection a i {
+    color: #ee701c;
+}
+
+.piccontainer {
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.piccontainer img {
+    border-radius: 50%;
 }
