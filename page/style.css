@@ -28,4 +28,60 @@ ul li a {
     padding: 7.2px 20px;
     display: inline-block;
     font-size: 16px;
+    transition: 0.2s ease;
+}
+
+ul li a:hover {
+    color: #ee701c;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #20908b;
+}
+
+.heading1 {
+    text-align: center;
+    justify-content: center;
+    margin: 60px auto 0;
+}
+
+.heading1 h1 {
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 60px 353.35px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.paragraph p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    /* padding: 12px 38px 34px 37px; */
+    margin: 20px 404px 0px;
+}
+
+.link {
+    margin: 30px auto 60px;
+    padding: 12px 38px 14px 37px;
+
+}
+
+.link a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ee701c;
+    margin: 30px 489.225px 60px;
+    padding: 12px 38px 14px 37px;
+    border-width: 0 !important;
+    text-decoration: none;
+    border-radius: 15px;
 }
