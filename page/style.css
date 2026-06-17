@@ -218,15 +218,35 @@ ul li a:hover {
     object-fit: cover;
 }
 
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .heading3 {
     color: #ffffff;
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 510px;
+    /* max-height: 105.6px; */
 }
 
 .heading3 h2 {
     font-size: 48px;
     font-family: 'Ubuntu', sans-serif;
+
+}
+
+.paragraph2 p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 20px 0px 0px;
+    max-width: 510px;
+
 
 }
