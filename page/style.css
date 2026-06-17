@@ -99,6 +99,10 @@ ul li a:hover {
 }
 
 .section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     max-height: 569px;
     background-color: #fdf;
@@ -112,6 +116,8 @@ ul li a:hover {
     flex-direction: column;
     max-width: 570px;
     max-height: 449px;
+    gap: 30px;
+    margin: 30px 0px 30px;
 }
 
 .heading2 {
@@ -123,4 +129,46 @@ ul li a:hover {
     font-family: 'Ubuntu', sans-serif;
     color: #111111;
     margin: 0px 298.938px 0px 0px;
+}
+
+.paragraph2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph2 p {
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px 0px;
+}
+
+.icons a {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 30px 144.95px 0px 0px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.icons a:hover {
+    color: #ee701c;
+}
+
+.icons a i {
+    color: #ee701c;
+}
+
+.text {
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 364.475px 0px 0px;
+}
+
+.text p a {
+    text-decoration: none;
+    color: #f1c50e;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
