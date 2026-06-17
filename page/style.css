@@ -224,6 +224,7 @@ ul li a:hover {
     justify-content: center;
     text-align: center;
     align-items: center;
+
 }
 
 .heading3 {
@@ -238,15 +239,32 @@ ul li a:hover {
 .heading3 h2 {
     font-size: 48px;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
-.paragraph2 p {
+.paragraph3 p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     margin: 20px 0px 0px;
     max-width: 510px;
+    margin-left: 30px;
+    max-width: 510px;
 
+}
+
+.text1 {
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 364.475px 0px 30px;
+    max-width: 510px;
+
+}
+
+.text1 p a {
+    text-decoration: none;
+    color: #f1c50e;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 
 }
