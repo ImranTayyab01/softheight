@@ -420,3 +420,25 @@ ul li a:hover {
     background-color: #f1c50e;
     color: #111111;
 }
+
+.text5 {
+    color: #111111;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 20px 20px 300px;
+    width: 100%;
+
+}
+
+.text5 p a {
+    text-decoration: none;
+    color: #f1c50e;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
