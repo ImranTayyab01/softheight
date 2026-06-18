@@ -273,18 +273,18 @@ ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 30px 100px;
+    padding: 30px 200px;
 }
 
 .section4 img {
     width: 100%;
     height: 396px;
     object-fit: cover;
-    border-radius: 15px;
     display: block;
+    overflow: hidden;
     transition: transform 0.4s ease;
 }
 
 .section4 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
