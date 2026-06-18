@@ -273,7 +273,7 @@ ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 30px 350px;
+    padding: 30px 200px;
 }
 
 .section4 img {
@@ -306,9 +306,10 @@ ul li a:hover {
 
 .section5 {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 30px 350px;
+    gap: 10px;
+    padding: 30px 200px;
     background-color: #FDF0E7;
 }
 
@@ -319,7 +320,9 @@ ul li a:hover {
     flex-direction: column;
     padding: 30px;
     background-color: white;
-    max-width: 366.66px;
+    /* max-width: 366.66px; */
+    width: 370px;
+    box-sizing: border-box;
     height: 292px;
     border-radius: 20px;
     gap: 20px;
@@ -361,15 +364,24 @@ ul li a:hover {
     color: #111111;
 }
 
+.picture-container1,
+.picture-container2,
+.picture-container3,
+.picture-container4 {
+    height: 292px;
+    width: 370px;
+}
+
 .picture-container1 img,
 .picture-container2 img,
 .picture-container3 img,
 .picture-container4 img {
     width: 100%;
-    height: 292px;
+    height: 100%;
     object-fit: cover;
     display: block;
     border-radius: 10px;
+
 }
 
 .box2 {
@@ -379,7 +391,7 @@ ul li a:hover {
     flex-direction: column;
     padding: 30px;
     background-color: #ee701c;
-    max-width: 366.66px;
+    width: 370px;
     height: 292px;
     border-radius: 20px;
     gap: 20px;
@@ -429,7 +441,7 @@ ul li a:hover {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin: 20px 20px 20px 300px;
-    width: 100%;
+    padding: 30px 30px 30px 30px;
 
 }
 
