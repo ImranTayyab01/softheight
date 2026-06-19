@@ -58,7 +58,6 @@ ul li a:hover {
 .heading1 {
     text-align: center;
     justify-content: center;
-    /* margin: 60px auto 0; */
 }
 
 .heading1 h1 {
@@ -183,7 +182,6 @@ ul li a:hover {
 }
 
 .pic img {
-    /* margin: 18px 72.5px 0px; */
     width: 365px;
     object-fit: cover;
     height: 365px;
@@ -233,7 +231,6 @@ ul li a:hover {
     align-items: center;
     text-align: center;
     max-width: 510px;
-    /* max-height: 105.6px; */
 }
 
 .heading3 h2 {
