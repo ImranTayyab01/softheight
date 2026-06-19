@@ -320,7 +320,6 @@ ul li a:hover {
     flex-direction: column;
     padding: 30px;
     background-color: white;
-    /* max-width: 366.66px; */
     width: 370px;
     box-sizing: border-box;
     height: 292px;
@@ -442,7 +441,6 @@ ul li a:hover {
     font-family: 'Open Sans', sans-serif;
     margin: 20px 20px 20px 300px;
     padding: 30px 30px 30px 30px;
-
 }
 
 .text5 p a {
