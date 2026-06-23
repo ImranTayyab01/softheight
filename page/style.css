@@ -449,3 +449,133 @@ ul li a:hover {
     align-items: center;
     text-align: center;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f5f5f5;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+/* LEFT SIDE */
+
+.image-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 520px;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.phone-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: 130px;
+    height: 130px;
+
+    background: #f27517;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-icon i {
+    color: white;
+    font-size: 60px;
+}
+
+/* RIGHT SIDE */
+
+.form-side {
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    gap: 25px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #111;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    border: none;
+    background: #eaeaea;
+    padding: 14px;
+    font-size: 20px;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    height: 55px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #249a95;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f27517;
+}
+
+.credit {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.credit a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+}
